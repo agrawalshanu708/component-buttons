@@ -1,0 +1,144 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+:root {
+  --back-color: #1e3a8a;
+  --font-color: #eff6ff;
+  --sub-head: 20px;
+  --border-color: #bfdbfe;
+  --success-color: #3b82f6;
+}
+
+.button-box {
+  border: 1px solid black;
+  position: relative;
+  width: 800px;
+  left: 20%;
+  height: auto;
+}
+
+.sub-head {
+  font-size: var(--sub-head);
+  font-weight: 550;
+}
+.basic-box {
+  border: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 1rem;
+}
+.basic {
+  width: 100px;
+  height: 40px;
+  margin: 0.5rem 0;
+  /* border: none; */
+  border-radius: 9px;
+}
+.text {
+  background-color: white;
+  color: var(--back-color);
+  border: none;
+}
+.contained {
+  background-color: var(--back-color);
+  color: var(--font-color);
+  border: none;
+}
+
+.outlined {
+  background-color: white;
+  border-color: var(--back-color);
+}
+.success {
+  background-color: var(--success-color);
+  color: var(--font-color);
+  border: none;
+}
+.danger,
+.error {
+  border-color: red;
+  background-color: white;
+  color: red;
+}
+.error {
+}
+.click {
+  border: none;
+  background-color: white;
+  color: yellowgreen;
+  font-size: 14px;
+}
+.basic-box-size {
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+.size-box {
+  display: flex;
+  display: block;
+}
+
+.primary-size-box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: fit-content;
+}
+
+.outline-large {
+  width: 150px;
+  height: 60px;
+  margin: 0.5rem;
+  background-color: white;
+  border-color: var(--back-color);
+}
+.outline-medium {
+  width: 120px;
+  height: 44px;
+  margin: 0.5rem;
+  background-color: white;
+  border-color: var(--back-color);
+}
+.outline-small {
+  width: 80px;
+  height: 40px;
+  margin: 0.5rem;
+  background-color: white;
+  border-color: var(--back-color);
+}
+.l-primary {
+  border: none;
+  width: 150px;
+  height: 60px;
+  background-color: var(--back-color);
+  color: var(--font-color);
+  margin: 0.5rem;
+}
+.m-primary {
+  border: none;
+  width: 120px;
+  height: 44px;
+  background-color: var(--back-color);
+  margin: 0.5rem;
+  color: var(--font-color);
+}
+.s-primary {
+  border: none;
+  width: 80px;
+  height: 40px;
+  background-color: var(--back-color);
+  color: var(--font-color);
+  margin: 0.5rem;
+}
+a {
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+.icon {
+}
+.float {
+}
